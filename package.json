@@ -1,0 +1,23 @@
+{
+  "name": "1cebitexchangewebapp",
+  "version": "1.0.0",
+  "description": "Exchange WebApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roamdev/1cebitExchangeWebApp.git"
+  },
+  "author": "Roamdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roamdev/1cebitExchangeWebApp/issues"
+  },
+  "homepage": "https://github.com/Roamdev/1cebitExchangeWebApp#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
