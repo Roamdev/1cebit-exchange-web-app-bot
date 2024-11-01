@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Telegram WebApp</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <h1>Моё веб-приложение</h1>
+    <button onclick="sendData()">Отправить данные</button>
+
+    <script>
+        const tg = window.Telegram.WebApp;
+        tg.ready();
+
+        function sendData() {
+            tg.sendData("some_data");
+            tg.close();
+        }
+    </script>
+</body>
+</html>
